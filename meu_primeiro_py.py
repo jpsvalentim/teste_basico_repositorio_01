@@ -3,9 +3,9 @@ def add(x, y):
 
 def subtract(x, y):
     return x - y
-#modificado com um novo parametro
-def multiply(x, y,z):
-    return x * y *z
+#modificado com sem um novo parametro
+def multiply(x, y):#deixou de ser util
+    return x * y#apenas dois parametro sao suficientes
 
 def divide(x, y):
     if y == 0:
